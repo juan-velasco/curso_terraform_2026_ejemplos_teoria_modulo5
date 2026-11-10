@@ -6,15 +6,15 @@ Ejemplos pequeños y aislados para acompañar la explicación. **No usan ningún
 
 Requisito: Terraform 1.5 o posterior.
 
-| Carpeta | Diapositiva | Qué muestra |
-| --- | --- | --- |
-| `01-tipos-complejos` | 7 | list, map, object y map(object) con optional() |
-| `02-validaciones` | 8 | validation con contains, can(regex), cidrhost y alltrue |
-| `03-precondiciones-check` | 10 | precondition (error) frente a check (aviso) |
-| `04-bucles-count` | 11 y 13 | count, count.index, splat y qué pasa al quitar un elemento |
-| `05-bucles-for-each` | 12 y 13 | for_each con mapas, listas convertidas y toset |
-| `06-expresiones-for-splat` | 14 | for a lista, a mapa, con filtro y splat |
-| `07-condicionales` | 15 | ternario, count = cond ? 1 : 0, one() y for_each condicional |
+| Carpeta | Qué muestra |
+| --- | --- |
+| `01-tipos-complejos` | list, map, object y map(object) con optional() |
+| `02-validaciones` | validation con contains, can(regex), cidrhost y alltrue |
+| `03-precondiciones-check` | precondition (error) frente a check (aviso) |
+| `04-bucles-count` | count, count.index, splat y qué pasa al quitar un elemento |
+| `05-bucles-for-each` | for_each con mapas, listas convertidas y toset |
+| `06-expresiones-for-splat` | for a lista, a mapa, con filtro y splat |
+| `07-condicionales` | ternario, count = cond ? 1 : 0, one() y for_each condicional |
 
 ## Cómo usarlos
 
